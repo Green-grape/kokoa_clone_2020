@@ -1,0 +1,80 @@
+/*1rem=16px*/
+.welcome-header{
+    margin-top:6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-bottom: 3rem;
+}
+
+.welcome-header__text{
+    opacity: 0.7;
+    width:70%;
+    margin-bottom:6rem;
+}
+
+.login-form{
+    margin:0px 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form__id{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-size:1rem;
+    padding:1rem 0;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form__id::placeholder{
+    color:rgba(0,0,0,0.4);
+}
+
+.login-form__id:focus{
+    border-color: var(--yellow);
+}
+
+.login-form__password{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-size:1rem;
+    padding:1rem 0;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form__password::placeholder{
+    color:rgba(0,0,0,0.4);
+}
+
+.login-form__password:focus{
+    border-color: var(--yellow);
+}
+
+.login-form__login-btn,
+.login-form__signup-btn{
+    margin-top:0.6rem;
+    height:2.5rem;
+    border: none;
+    background-color: var(--yellow);
+    padding: 0.5rem;
+    cursor:pointer;
+    border-radius: 0.3rem;
+    color:black;
+}
+
+.login-form__link{
+    margin-top:0.9rem;
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    font-size:0.8rem;
+}

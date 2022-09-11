@@ -1,0 +1,32 @@
+.screen-header{
+    display: flex;
+    margin-top:2.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 var(--horizontal-space);
+}
+
+.screen-header__title{
+    font-size:2rem;
+    font-weight: 600;
+}
+
+.screen-header__icons{
+    position: relative;
+    padding:0.3rem;
+}
+
+.screen-header__icons i{
+    transition: font-size 0.2s ease-in-out;
+}
+
+.screen-header__icons i:hover{
+    cursor: pointer;
+    font-size:1.5rem;
+}
+
+
+.screen-header__icons span{
+    margin-left:1.5rem;
+}

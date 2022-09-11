@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>More - Kokoa Clone</title>
+</head>
+<!--To Do: 정렬 신경 쓰기-->
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>            
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="status-bar__battery fas fa-battery-half "></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+            <span class="badge badge--top-right badge--xs"></span>
+        </div>
+    </header>
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://ww.namu.la/s/4bf2551ee430582f4db9840848f057dade66fe61795bdb3ec4143cd1a75a78a9299402f4e094226c7ab3359e44d44d831fe35585ede5012b0fd34b467f4a48746ae0eb0dccab9c88a09bc342df246c89" alt="" class="user-component__avatar">
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">Nvidia</h4>
+                    <h6 class="user-component__subtitle">
+                        <span>+82 031-123-4567</span>
+                        <div class="user-component__info">
+                            <span>i</span>
+                        </div>
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-hdd"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-smile-wink"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fas fa-brush"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-address-book"></i>
+                <span>OpenChat</span>
+            </div>
+            <div class="icon-row__icon"></div>
+            <div class="icon-row__icon"> </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="more-suggestions__icon-text">
+                        <span>Kokoa Story</span>
+                    </div>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="more-suggestions__icon-text">
+                        <span>Kokoa Story</span>
+                    </div>
+                </div>
+                <div class="more-suggestions__icon"></div>
+                <div class="more-suggestions__icon"></div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="./friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="./chats.html">
+                    <span class="badge nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="./find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="./more.html">
+                    <span class="badge badge--xs nav__notification nav__notification--xs"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/03ab144667.js" crossorigin="anonymous"></script>
+</body>
+</html>

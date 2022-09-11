@@ -1,0 +1,129 @@
+.recommended-friends{
+    border-top: var(--default-border);
+    margin:1.25rem 0;
+    padding:2rem 0;
+    color:var(--grey);
+    border-bottom: var(--default-border);
+}
+
+.recommended-friends p{
+    text-align: center;
+    margin:8rem 0;
+}
+
+.recommended-friends__title{
+    font-size:0.9rem;
+}
+
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    color:var(--grey);
+    margin-bottom: 1.5rem;
+}
+
+.open-chat{
+    height:50%;
+}
+
+.open-chat__home{
+    display: flex;
+    align-items: center;
+    color:rgba(0,0,0,0.3);
+}
+
+.open-chat__home span{
+    margin-right:0.25rem;
+}
+
+.open-post{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--default-border);
+    padding:1rem;
+}
+
+.open-post__column{
+    position:relative;
+}
+
+.open-post__title{
+    font-weight:600;
+    margin-bottom: 0.25rem;
+}
+
+.open-post__hashtag{
+    text-transform: uppercase;
+    color:var(--grey);
+}
+
+.open-post__members{
+    margin-top:0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img{
+    width:1rem;
+    height:1rem;
+    border-radius:50%;
+    margin-right:0.25rem;
+}
+
+.open-post__members-count{
+    color:var(--grey);
+    font-size:0.875rem;
+}
+
+.open-post__members .divider{
+    width:1px;
+    height:0.8rem;
+    margin:0 0.375rem;
+    background-color: var(--grey);
+}
+
+.open-post__members-status{
+    color:#ffb0e0;
+}
+
+.open-post__photo img{
+    width:6.5rem;
+    height:6.5rem;
+    border-radius: 0.5rem;
+}
+
+@keyframes heartBeat {
+    0%{
+        color:white;
+        transform: none;
+    }50%{
+        color:tomato;
+        transform: scale(1.5);
+    }100%{
+        color:white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i{
+    will-change: transform;
+    animation:heartBeat 1s linear infinite;
+}
+
+.open-post__heart-count{
+    position:absolute;
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    font-size:0.875rem;
+    padding:0.25rem 0.675rem;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    bottom:0.75rem;
+    right:0.5rem;
+}
+
+.open-post__heart-count span{
+    margin-left:0.25rem;
+}
